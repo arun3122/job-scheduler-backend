@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000") // Allow React Frontend
+@CrossOrigin(origins = "*") // Allow React Frontend
 public class JobController {
 
     @Autowired
